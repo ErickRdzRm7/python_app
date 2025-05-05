@@ -3,7 +3,6 @@ pipeline {
 
     agent any
 
-    // Ejecutar sólo para la rama 'main' (o la que uses, ej: 'master')
     when { branch 'main' }
 
     stages {
